@@ -1,0 +1,5 @@
+Model,Features,Key Parameters,R2,RMSE
+Linear Regression,Trip/time/location features,Default,0.71,5.00
+Ridge Regression,Trip/time/location features,alpha=0.1,0.71,5.00
+Random Forest,All features including fare variables,n_estimators=100,0.88,3.29
+Refined Random Forest,Fare-related variables removed,n_estimators=100,0.74,4.80
